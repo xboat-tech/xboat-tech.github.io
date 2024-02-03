@@ -1,0 +1,29 @@
+baseURL = 'http://xboat.tech/'
+languageCode = 'en-us'
+title = 'XBoat - Opensource Self-Driving Boat'
+theme = 'ananke'
+resourceDir = "resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "XBoat - Opensource Self-Driving Boat"
+    weight = 1
+    contentDir = "content/en"
+    
+  [languages.vi]
+    title = "XBoat - Thuyền tự lái mã nguồn mở"
+    weight = 2
+    contentDir = "content/vi"
+
+[params]
+#	site_logo = "xboat.png"
+  
+[[params.ananke_socials]]
+	name = "github"
+	url = "https://github.com/xboat-tech"  
